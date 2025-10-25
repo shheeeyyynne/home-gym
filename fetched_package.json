@@ -1,0 +1,36 @@
+{
+  "name": "homegym",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@craco/craco": "^7.1.0",
+    "mo": "^1.7.3",
+    "next": "^12.1.10",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-helmet": "^6.1.0",
+    "react-router-dom": "^5.2.0"
+  },
+  "scripts": {
+    "start": "node node_modules/@craco/craco/bin/craco.js start",
+    "build": "node node_modules/@craco/craco/bin/craco.js build",
+    "test": "node node_modules/@craco/craco/bin/craco.js test --env=jsdom",
+    "eject": "node node_modules/@craco/craco/bin/craco.js eject"
+  },
+  "engines": {
+    "node": ">=18.x"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "react-scri
